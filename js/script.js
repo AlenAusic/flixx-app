@@ -38,7 +38,7 @@ async function displayPopularMovies() {
 
 // Fetch data from TMDB API
 async function fetchAPIData(endpoint) {
-  const API_KEY = '${{ TMDB_API_KEY }}';
+  const API_KEY = '${TMDB_API_KEY}';
   const API_URL = 'https://api.themoviedb.org/3/';
 
   const response = await fetch(
