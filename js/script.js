@@ -38,6 +38,9 @@ async function displayPopularMovies() {
 
 // Fetch data from TMDB API
 async function fetchAPIData(endpoint) {
+  // Register your key at https://www.themoviedb.org/settings/api and enter here
+  // Only use this for development or very small projects.
+  // You should store your key and make requests from a server
   const API_KEY = '6a65ca99b34c8f8eae4be48527b59ea8';
   const API_URL = 'https://api.themoviedb.org/3/';
 
