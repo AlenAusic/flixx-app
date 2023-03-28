@@ -1,6 +1,5 @@
-var key = process.env.TMDB_API_KEY;
-
-alert(key);
+var max_val = "{{ env('TMDB_API_KEY') }}";
+alert(max_val);
 
 const global = {
   currentPage: window.location.pathname,
