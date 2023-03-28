@@ -4,4 +4,4 @@ with:
   password: '${{ secrets.CAPROVER_PASSWORD }}'
   appname: 'flixx-app'
 env:
-  TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+  TMDB_API_KEY: process.env.TMDB_API_KEY
