@@ -1,4 +1,4 @@
-var key = '{{ process.env.TMDB_API_KEY }}';
+var key = process.env.TMDB_API_KEY;
 
 alert(key);
 
