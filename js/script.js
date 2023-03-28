@@ -1,3 +1,7 @@
+var key = '{{ process.env.TMDB_API_KEY }}';
+
+alert(key);
+
 const global = {
   currentPage: window.location.pathname,
 };
