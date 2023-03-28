@@ -5,6 +5,8 @@
                         "RUN mkdir -p /usr/src/app",
                         "WORKDIR /usr/src/app",
                         "COPY ./ /usr/src/app",
+                        "ARG TMDB_API_KEY",
+                        "ENV TMDB_API_KEY=$TMDB_API_KEY",
                         "ENV NODE_ENV production",
                         "ENV PORT 80",
                         "EXPOSE 80",
